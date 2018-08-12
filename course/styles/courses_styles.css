@@ -759,6 +759,7 @@ section
 .course_box
 {
 	margin-bottom: 108px;
+	text-align: center;
 }
 .course_box:nth-last-child(-n+3)
 {
@@ -773,7 +774,11 @@ section
 .card-img-top
 {
 	border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
+	border-top-right-radius: 0px;
+	font-size: 10em;
+    text-align: center;
+    color: #ffb606;
+    display: block;
 }
 .card-body
 {
@@ -1001,4 +1006,71 @@ section
 .footer_social .menu_social_item:last-child
 {
 	margin-right: 0px;
+}
+
+
+
+.cbp-ig-title {
+    margin: 20px 0 10px;
+    padding: 20px 0 0;
+    position: relative;
+    -webkit-transition: -webkit-transform 0.4s;
+    -moz-transition: -moz-transform 0.4s;
+    transition: transform 0.4s;
+}
+.cbp-ig-icon {
+    padding: 30px 0 0;
+    display: block;
+    -webkit-transition: -webkit-transform 0.4s;
+    transition: -moz-transform 0.4s;
+    transition: transform 0.4s;
+}
+
+.course_boxes span {
+    display: block;
+    height: 100%;
+    color: #ffb606;
+    -webkit-transition: background 0.4s;
+    -moz-transition: background 0.4s;
+    transition: background 0.4s;
+	cursor: pointer;
+}
+.course_boxes {
+    list-style: none;
+    padding: 0 0 50px;
+    margin: 0;
+}
+
+.cbp-ig-icon:before {
+    font-family: 'devicon';
+    font-size: 7em;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+.course_box span:hover {
+    background: #ffb606;
+}
+
+.course_box span:hover .cbp-ig-icon {
+    -webkit-transform: translateY(10px);
+    -moz-transform: translateY(10px);
+    -ms-transform: translateY(10px);
+    transform: translateY(10px);
+}
+
+.course_box span:hover .cbp-ig-title {
+    -webkit-transform: translateY(-30px);
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    transform: translateY(-30px);
+}
+
+.course_box span:hover .cbp-ig-icon:before, .course_box span:hover .cbp-ig-title {
+    color: #fff;
 }
