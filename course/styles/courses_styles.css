@@ -282,7 +282,7 @@ section
 	width: 1318px;
 	height: 104px;
 	background: #FFFFFF;
-	z-index: 10;
+	z-index: 11000;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -319,10 +319,18 @@ section
 3.1 Logo
 *********************************/
 
+
 .logo_container
 {
 	display: inline-block;
-	padding-left: 76px;
+	padding-left: 0px;
+}
+.logo{
+	background: white;
+    box-shadow: 0px 20px 49px rgba(0,0,0,0.67)
+}
+.logo img{
+	width: 240px;
 }
 .logo span
 {
@@ -373,7 +381,7 @@ section
 }
 .main_nav_item a:hover
 {
-	color: #ffb606;
+	color: #8040a4;
 }
 
 /*********************************
@@ -384,7 +392,7 @@ section
 {
 	width: 279px;
 	height: 100%;
-	background: #ffb606;
+	background: #8040a4;
 }
 .header_side img
 {
@@ -426,7 +434,7 @@ section
 }
 .hamburger_container:hover i
 {
-	color: #ffb606;
+	color: #8040a4;
 }
 
 /*********************************
@@ -504,7 +512,7 @@ section
 }
 .menu_item a:hover
 {
-	color: #ffb606;
+	color: #8040a4;
 }
 .menu_close_container
 {
@@ -551,7 +559,7 @@ section
 .menu_close_container:hover .menu_close,
 .menu_close_container:hover .menu_close::after
 {
-	background: #ffb606;
+	background: #8040a4;
 }
 
 /*********************************
@@ -585,7 +593,7 @@ section
 }
 .menu_social_item a i:hover
 {
-	color: #ffb606;
+	color: #8040a4;
 }
 .menu_container.active .menu_social_container
 {
@@ -662,7 +670,7 @@ section
 	-ms-transform: translateX(-50%);
 	-o-transform: translateX(-50%);
 	transform: translateX(-50%);
-	background: #ffb606;
+	background: #8040a4;
 	padding-top: 24px;
 	padding-bottom: 18px;
 	padding-left: 39px;
@@ -716,7 +724,7 @@ section
 	width: 55px;
 	height: 4px;
 	content: '';
-	background: #ffb606;
+	background: #8040a4;
 }
 
 /*********************************
@@ -777,7 +785,7 @@ section
 	border-top-right-radius: 0px;
 	font-size: 10em;
     text-align: center;
-    color: #ffb606;
+    color: #8040a4;
     display: block;
 }
 .card-body
@@ -840,7 +848,7 @@ section
 {
 	width: 67px;
 	height: 67px;
-	background: #ffb606;
+	background: #8040a4;
 	margin-left: auto;
 }
 .course_price span
@@ -891,14 +899,14 @@ section
 }
 .newsletter_email:focus
 {
-	outline: solid 2px #ffb606;
+	outline: solid 2px #8040a4;
 }
 .newsletter_submit_btn
 {
 	width: 164px;
 	height: 42px;
 	border: none;
-	background: #ffb606;
+	background: #8040a4;
 	color: #FFFFFF;
 	font-size: 14px;
 	font-weight: 500;
@@ -960,7 +968,7 @@ section
 }
 .footer_list_item a:hover
 {
-	color: #ffb606;
+	color: #8040a4;
 }
 .footer_contact_item
 {
@@ -1001,7 +1009,7 @@ section
 }
 .footer_social .menu_social_item a i:hover
 {
-	color: #ffb606;
+	color: #8040a4;
 }
 .footer_social .menu_social_item:last-child
 {
@@ -1029,7 +1037,7 @@ section
 .course_boxes span {
     display: block;
     height: 100%;
-    color: #ffb606;
+    color: #8040a4;
     -webkit-transition: background 0.4s;
     -moz-transition: background 0.4s;
     transition: background 0.4s;
@@ -1054,7 +1062,7 @@ section
 }
 
 .course_box span:hover {
-    background: #ffb606;
+    background: #8040a4;
 }
 
 .course_box span:hover .cbp-ig-icon {

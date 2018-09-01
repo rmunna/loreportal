@@ -291,7 +291,7 @@ section
 	width: 85%;
 	height: 104px;
 	background: #FFFFFF;
-	z-index: 10;
+	z-index: 11000;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -331,7 +331,14 @@ section
 .logo_container
 {
 	display: inline-block;
-	padding-left: 76px;
+	padding-left: 0px;
+}
+.logo{
+	background: white;
+    box-shadow: 0px 20px 49px rgba(0,0,0,0.67)
+}
+.logo img{
+	width: 240px;
 }
 .logo span
 {
@@ -382,7 +389,7 @@ section
 }
 .main_nav_item a:hover
 {
-	color: #ffb606;
+	color: #8040a4;
 }
 
 /*********************************
@@ -393,7 +400,7 @@ section
 {
 	width: 279px;
 	height: 100%;
-	background: #ffb606;
+	background: #8040a4;
 }
 .header_side img
 {
@@ -435,7 +442,7 @@ section
 }
 .hamburger_container:hover i
 {
-	color: #ffb606;
+	color: #8040a4;
 }
 
 /*********************************
@@ -513,7 +520,7 @@ section
 }
 .menu_item a:hover
 {
-	color: #ffb606;
+	color: #8040a4;
 }
 .menu_close_container
 {
@@ -560,7 +567,7 @@ section
 .menu_close_container:hover .menu_close,
 .menu_close_container:hover .menu_close::after
 {
-	background: #ffb606;
+	background: #8040a4;
 }
 
 /*********************************
@@ -594,7 +601,7 @@ section
 }
 .menu_social_item a i:hover
 {
-	color: #ffb606;
+	color: #8040a4;
 }
 .menu_container.active .menu_social_container
 {
@@ -693,7 +700,7 @@ section
 }
 .hero_slide_content h1 span
 {
-	background: #ffb606;
+	background: #8040a4;
 	padding-left: 13px;
 	padding-right: 13px;
 	margin-left: -12px;
@@ -741,7 +748,7 @@ section
 }
 .hero_slider_nav:hover
 {
-	background: #ffb606;
+	background: #8040a4;
 }
 .hero_slider_nav:hover span
 {
@@ -793,7 +800,7 @@ section
 }
 .hero_box:hover
 {
-	background: #ffb606;
+	background: #8040a4;
 }
 .hero_box img
 {
@@ -803,7 +810,7 @@ section
 }
 .svg path
 {
-	fill: #ffb606;
+	fill: #8040a4;
 }
 .hero_box svg
 {
@@ -874,7 +881,7 @@ section
 	width: 55px;
 	height: 4px;
 	content: '';
-	background: #ffb606;
+	background: #8040a4;
 }
 
 /*********************************
@@ -986,7 +993,7 @@ section
 {
 	width: 67px;
 	height: 67px;
-	background: #ffb606;
+	background: #8040a4;
 	margin-left: auto;
 }
 .course_price span
@@ -1008,7 +1015,7 @@ section
 .register_section
 {
 	width: 100%;
-	background: #ffb606;
+	background: #8040a4;
 	padding-top: 156px;
 	padding-bottom: 161px;
 }
@@ -1105,13 +1112,13 @@ input:last-of-type
 .input_field:focus
 {
 	outline: none !important;
-	border: solid 2px #ffb606;
+	border: solid 2px #8040a4;
 }
 .search_submit_button
 {
 	width: 100%;
 	height: 48px;
-	background: #ffb606;
+	background: #8040a4;
 	color: #FFFFFF;
 	font-size: 14px;
 	text-transform: uppercase;
@@ -1216,7 +1223,7 @@ input:last-of-type
 .quote
 {
 	font-size: 36px;
-	color: #ffb606;
+	color: #8040a4;
 }
 .testimonials_text
 {
@@ -1277,7 +1284,7 @@ input:last-of-type
 	width: 16px !important;
 	height: 16px !important;
 	border: none;
-	background: #ffb606 !important;
+	background: #8040a4 !important;
 }
 
 /*********************************
@@ -1300,14 +1307,14 @@ input:last-of-type
 {
 	width: 131px;
 	height: 131px;
-	border: solid 2px #ffb606;
+	border: solid 2px #8040a4;
 	margin-bottom: 18px;
 }
 .event_day
 {
 	font-size: 48px;
 	font-weight: 700;
-	color: #ffb606;
+	color: #8040a4;
 	margin-bottom: 1px;
 	line-height: 1;
 }
@@ -1315,7 +1322,7 @@ input:last-of-type
 {
 	font-size: 16px;
 	font-weight: 700;
-	color: #ffb606;
+	color: #8040a4;
 }
 .event_name a
 {
@@ -1325,7 +1332,7 @@ input:last-of-type
 }
 .event_name a:hover
 {
-	color: #ffb606;
+	color: #8040a4;
 }
 .event_location
 {
@@ -1390,14 +1397,14 @@ input:last-of-type
 }
 .newsletter_email:focus
 {
-	outline: solid 2px #ffb606;
+	outline: solid 2px #8040a4;
 }
 .newsletter_submit_btn
 {
 	width: 164px;
 	height: 42px;
 	border: none;
-	background: #ffb606;
+	background: #8040a4;
 	color: #FFFFFF;
 	font-size: 14px;
 	font-weight: 500;
@@ -1459,7 +1466,7 @@ input:last-of-type
 }
 .footer_list_item a:hover
 {
-	color: #ffb606;
+	color: #8040a4;
 }
 .footer_contact_item
 {
@@ -1500,9 +1507,68 @@ input:last-of-type
 }
 .footer_social .menu_social_item a i:hover
 {
-	color: #ffb606;
+	color: #8040a4;
 }
 .footer_social .menu_social_item:last-child
 {
 	margin-right: 0px;
+}
+
+
+/*********************************
+8.5 Milestones
+*********************************/
+
+.milestones
+{
+	width: 100%;
+	margin-top: 0px;
+}
+.milestones_container
+{
+	width: 100%;
+	padding-top: 118px;
+	padding-bottom: 107px;
+	margin-top: 0px;
+}
+.milestones_background
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+.milestone
+{
+	width: 100%;
+}
+.milestone_icon
+{
+	display: inline-block;
+	width: 70px;
+	height: 70px;
+}
+.milestone_icon img
+{
+	width: 100%;
+}
+.milestone_counter
+{
+	font-size: 36px;
+	font-weight: 500;
+	color: #8040a4;
+	line-height: 1;
+	margin-top: 41px;
+}
+.milestone_text
+{
+	font-size: 22px;
+	font-weight: 500;
+	color: #FFFFFF;
+	margin-top: 3px;
 }

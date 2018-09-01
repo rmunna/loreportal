@@ -280,7 +280,7 @@ section
 	width: 1318px;
 	height: 104px;
 	background: #FFFFFF;
-	z-index: 10;
+	z-index: 11000;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -317,10 +317,18 @@ section
 3.1 Logo
 *********************************/
 
+
 .logo_container
 {
 	display: inline-block;
-	padding-left: 76px;
+	padding-left: 0px;
+}
+.logo{
+	background: white;
+    box-shadow: 0px 20px 49px rgba(0,0,0,0.67)
+}
+.logo img{
+	width: 240px;
 }
 .logo span
 {
@@ -371,7 +379,7 @@ section
 }
 .main_nav_item a:hover
 {
-	color: #ffb606;
+	color: #8040a4;
 }
 
 /*********************************
@@ -382,7 +390,7 @@ section
 {
 	width: 279px;
 	height: 100%;
-	background: #ffb606;
+	background: #8040a4;
 }
 .header_side img
 {
@@ -424,7 +432,7 @@ section
 }
 .hamburger_container:hover i
 {
-	color: #ffb606;
+	color: #8040a4;
 }
 
 /*********************************
@@ -502,7 +510,7 @@ section
 }
 .menu_item a:hover
 {
-	color: #ffb606;
+	color: #8040a4;
 }
 .menu_close_container
 {
@@ -549,7 +557,7 @@ section
 .menu_close_container:hover .menu_close,
 .menu_close_container:hover .menu_close::after
 {
-	background: #ffb606;
+	background: #8040a4;
 }
 
 /*********************************
@@ -587,7 +595,7 @@ section
 }
 .menu_social_item a i:hover
 {
-	color: #ffb606;
+	color: #8040a4;
 }
 .menu_container.active .menu_social_container
 {
@@ -664,7 +672,7 @@ section
 	-ms-transform: translateX(-50%);
 	-o-transform: translateX(-50%);
 	transform: translateX(-50%);
-	background: #ffb606;
+	background: #8040a4;
 	padding-top: 24px;
 	padding-bottom: 18px;
 	padding-left: 39px;
@@ -713,7 +721,7 @@ section
 	width: 55px;
 	height: 4px;
 	content: '';
-	background: #ffb606;
+	background: #8040a4;
 }
 
 /*********************************
@@ -772,7 +780,7 @@ section
 .input_field:focus
 {
 	outline: none !important;
-	border-color: #ffb606;
+	border-color: #8040a4;
 }
 .text_field
 {
@@ -786,13 +794,13 @@ section
 .text_field:focus
 {
 	outline: none !important;
-	border-color: #ffb606;
+	border-color: #8040a4;
 }
 .contact_send_btn
 {
 	width: 100%;
 	height: 48px;
-	background: #ffb606;
+	background: #8040a4;
 	font-size: 14px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -802,7 +810,7 @@ section
 }
 .contact_send_btn:focus
 {
-	outline: solid 1px #ffb606;
+	outline: solid 1px #8040a4;
 	border: green !important;
 }
 
@@ -815,6 +823,7 @@ section
 	font-size: 36px;
 	font-weight: 500;
 	color: #1a1a1a;
+	padding-left: 46px;
 }
 .about_text
 {
@@ -911,14 +920,14 @@ section
 }
 .newsletter_email:focus
 {
-	outline: solid 2px #ffb606;
+	outline: solid 2px #8040a4;
 }
 .newsletter_submit_btn
 {
 	width: 164px;
 	height: 42px;
 	border: none;
-	background: #ffb606;
+	background: #8040a4;
 	color: #FFFFFF;
 	font-size: 14px;
 	font-weight: 500;
@@ -980,7 +989,7 @@ section
 }
 .footer_list_item a:hover
 {
-	color: #ffb606;
+	color: #8040a4;
 }
 .footer_contact_item
 {
@@ -1021,7 +1030,7 @@ section
 }
 .footer_social .menu_social_item a i:hover
 {
-	color: #ffb606;
+	color: #8040a4;
 }
 .footer_social .menu_social_item:last-child
 {
