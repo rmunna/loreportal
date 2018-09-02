@@ -926,6 +926,7 @@ section
 	display: block;
 	background: #f8f9fb;
 	border: none;
+	margin-bottom: 30px;
 }
 .card-img-top
 {
@@ -942,7 +943,7 @@ section
 }
 .card-title
 {
-	margin-top: 55px;
+	margin-top: 25px;
 }
 .card-title a
 {
